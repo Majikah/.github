@@ -1,5 +1,7 @@
 # Majikah: Post-Quantum Security. Just like Magic.
 
+![Majikah_Logo](https://github.com/user-attachments/assets/af9d998f-a482-4a79-8633-6f954a440028)
+
 Welcome to the Majikah GitHub organization. We are a privacy-first technology ecosystem dedicated to future-proofing digital sovereignty. In an era of "Harvest Now, Decrypt Later" (HNDL) attacks , we build the tools necessary to ensure your data remains secure—not just today, but in the post-quantum future.
 
 ## Our Core Philosophy

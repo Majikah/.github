@@ -21,7 +21,7 @@ Every Majikah product is built on the same foundation:
 
 | Capability | What it protects | Algorithms |
 |---|---|---|
-| **Encryption** | Everything you send | ML-KEM-768 (FIPS-203) + X25519 |
+| **Encryption** | Everything you send | ML-KEM-768 (FIPS-203) + AES-256 GCM |
 | **Signing** | Everything you create | ML-DSA-87 (FIPS-204) + Ed25519 |
 | **Identity** | Everything you own | BIP-39 derivation — locally generated, never transmitted |
 

@@ -31,19 +31,44 @@ One seed phrase generates all three. No accounts. No emails. No central authorit
 
 ## The Majik Key
 
-```
-12-word BIP-39 seed phrase
-        │
-        ▼
-   [ Majik Key ]
-   ┌─────┴──────┐──────────────┐
-   │            │              │
-Signing    Encryption      Identity
-Ed25519    ML-KEM-768      BIP-39
-ML-DSA-87  (FIPS-203)      Derivation
-   │            │              │
-Signature    Message      Universal ID
-Buwiz                       SLink
+```mermaid
+flowchart TD
+    A[12-word BIP-39 Seed Phrase] --> B[Majik Key]
+
+    %% Signing branch
+    B --> S[Signing]
+    S --> S1[Ed25519]
+    S --> S2[ML-DSA-87]
+
+    %% Encryption branch
+    B --> E[Encryption]
+    E --> E1[ML-KEM-768]
+    E --> E2[AES-256-GCM]
+
+    %% Identity branch
+    B --> I[Identity]
+    I --> I1[BIP-39]
+    I --> I2[X25519]
+
+    %% Products (fan-in)
+    S1 --> P1[Majik Signature]
+    S2 --> P1
+
+    S1 --> P2[Majik Buwiz]
+    S2 --> P2
+    E1 --> P2
+    E2 --> P2
+    I1 --> P2
+    I2 --> P2
+
+    E1 --> P3[Majik Message]
+    E2 --> P3
+
+    I1 --> P4[Majik Universal ID]
+    I2 --> P4
+
+    P4 --> P5[Majik SLink]
+
 ```
 
 > Your Majik Key is generated entirely offline. No network request is made during key creation — verifiable in source code.

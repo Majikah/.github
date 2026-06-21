@@ -85,7 +85,9 @@ flowchart TD
 [![npm bundle size](https://img.shields.io/bundlephobia/min/%40majikah%2Fmajik-message)](https://bundlephobia.com/package/@majikah/majik-message)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-[![Majik Message Thumbnail](https://github.com/user-attachments/assets/d433c6b8-1841-4fa1-a6da-b348029d1dbe)](https://message.majikah.solutions)
+[![Majik Message Thumbnail](https://github.com/user-attachments/assets/6355cbd3-63e4-4a95-a370-64ba27cbb4a7)](https://message.majikah.solutions)
+
+
 
 Majik Message is a zero-trust, post-quantum encrypted messaging platform using NIST-standardized ML-KEM-768 (FIPS-203). Create accounts with a 12-word seed phrase — no personal data required. Messages are quantum-safe today and will remain secure in 2040+.
 

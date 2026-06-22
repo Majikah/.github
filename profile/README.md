@@ -4,7 +4,9 @@
 
 > **One 12-word phrase. Five products. Complete post-quantum protection — for what you send, what you create, and what you own.**
 
-We are a privacy-first technology company building a suite of post-quantum cryptographic tools for individuals, professionals, and developers. In an era of *Harvest Now, Decrypt Later* (HNDL) attacks, we build tools that ensure your data remains secure — not just today, but in the post-quantum future.
+Majikah Solutions OPC is a post-quantum cryptographic security company based in Mandaluyong City, Philippines.
+
+We build free, open-to-all security tools using NIST-standardized algorithms (ML-KEM-768, ML-DSA-87, Ed25519) — the same standards NIST finalized on August 13, 2024 that global organizations are now migrating to.
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 ![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue)

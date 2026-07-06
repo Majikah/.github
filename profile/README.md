@@ -79,6 +79,24 @@ flowchart TD
 
 ## The Majikah Suite
 
+### ✍️ [Majik Signature](https://majikah.solutions/products/majik-signature)  — Flagship
+**Post-quantum cryptographic file signing and verification.**
+
+[![npm](https://img.shields.io/npm/v/@majikah/majik-signature)](https://www.npmjs.com/package/@majikah/majik-signature)
+[![npm downloads](https://img.shields.io/npm/dm/@majikah/majik-signature)](https://www.npmjs.com/package/@majikah/majik-signature)
+[![npm bundle size](https://img.shields.io/bundlephobia/min/%40majikah%2Fmajik-signature)](https://bundlephobia.com/package/@majikah/majik-signature)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
+[![Majik Signature Hero](https://github.com/user-attachments/assets/781bb778-9535-4b1f-bbc5-820550ecc864)](https://signature.majikah.solutions)
+
+
+Sign any file — documents, photographs, videos, invoices — with a hybrid Ed25519 + ML-DSA-87 signature. Verification requires no account: anyone can verify authenticity with a single drag-and-drop.
+
+**Available on:** [Web App](https://majikah.solutions/products/majik-signature) · [Microsoft Store](https://apps.microsoft.com/detail/9pl9g3xzvd1x)
+
+[Read Docs](https://majikah.solutions/products/majik-signature/docs) 
+---
+
 ### 🔐 [Majik Message](https://message.majikah.solutions) — Flagship
 **Post-quantum encrypted messaging. No phone number. No email. Just your 12 words.**
 
@@ -110,21 +128,15 @@ Majik Message is a zero-trust, post-quantum encrypted messaging platform using N
 
 ---
 
-### ✍️ [Majik Signature](https://majikah.solutions/products/majik-signature)
-**Post-quantum cryptographic file signing and verification.**
-
-Sign any file — documents, photographs, videos, invoices — with a hybrid Ed25519 + ML-DSA-87 signature. Verification requires no account: anyone can verify authenticity with a single drag-and-drop.
-
-**Available on:** [Web App](https://majikah.solutions/products/majik-signature) · Microsoft Store
-
----
-
 ### 🧾 [Majik Buwiz](https://majikah.solutions/products/majik-buwiz)
 **Offline-first invoice management with cryptographic signing by default.**
 
+[![Majik Buwiz Hero](https://github.com/user-attachments/assets/ce30371a-f7d9-43ea-b10d-e3c80857f488)](https://majikah.solutions/products/majik-buwiz)
+
+
 A free, privacy-respecting invoice management tool for freelancers, consultants, and small businesses. Every invoice is post-quantum signed using the user's Majik Key — producing tamper-proof, verifiable records with no internet connection required for core functionality.
 
-**Available on:** Microsoft Store · Web App *(coming soon)*
+**Available on:** [Microsoft Store](https://apps.microsoft.com/detail/9mzz1gm9238r) · Web App *(coming soon)*
 
 ---
 

@@ -35,7 +35,7 @@ One seed phrase generates all three. No accounts. No emails. No central authorit
 
 ```mermaid
 flowchart TD
-    A[12-word BIP-39 Seed Phrase] --> B[Majik Key]
+    A[12/24-word BIP-39 Seed Phrase] --> B[Majik Key]
 
     %% Signing branch
     B --> S[Signing]
@@ -52,6 +52,11 @@ flowchart TD
     I --> I1[BIP-39]
     I --> I2[X25519]
 
+    %% Experimental Web3 branch
+    B -.-> W[Web3 - Experimental]
+    W -.-> W1[Bitcoin - BIP-32/84]
+    W -.-> W2[Solana - Ed25519-derived]
+
     %% Products (fan-in)
     S1 --> P1[Majik Signature]
     S2 --> P1
@@ -62,6 +67,7 @@ flowchart TD
     E2 --> P2
     I1 --> P2
     I2 --> P2
+    
 
     E1 --> P3[Majik Message]
     E2 --> P3
@@ -70,7 +76,6 @@ flowchart TD
     I2 --> P4
 
     P4 --> P5[Majik SLink]
-
 ```
 
 > Your Majik Key is generated entirely offline. No network request is made during key creation — verifiable in source code.

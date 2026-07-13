@@ -8,6 +8,7 @@ Majikah Solutions OPC is a post-quantum cryptographic security company based in 
 
 We build free, open-to-all security tools using NIST-standardized algorithms (ML-KEM-768, ML-DSA-87, Ed25519) — the same standards NIST finalized on August 13, 2024 that global organizations are now migrating to.
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21339132.svg)](https://doi.org/10.5281/zenodo.21339132)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 ![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue)
 [![Google Cloud for Startups](https://img.shields.io/badge/Google%20Cloud-Startups%20Program-4285F4?logo=googlecloud&logoColor=white)](https://cloud.google.com/startup)
@@ -102,7 +103,7 @@ Sign any file — documents, photographs, videos, invoices — with a hybrid Ed2
 [Read Docs](https://majikah.solutions/products/majik-signature/docs) 
 ---
 
-### 🔐 [Majik Message](https://message.majikah.solutions) — Flagship
+### 🔐 [Majik Message](https://message.majikah.solutions)
 **Post-quantum encrypted messaging. No phone number. No email. Just your 12 words.**
 
 [![npm](https://img.shields.io/npm/v/@majikah/majik-message)](https://www.npmjs.com/package/@majikah/majik-message)

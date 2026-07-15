@@ -35,6 +35,8 @@ One seed phrase generates all three. No accounts. No emails. No central authorit
 ## The Majik Key
 [![ZENODO](https://img.shields.io/badge/Read_the_Technical_Whitepaper_Here-1682D4?style=for-the-badge&logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.21339132)
 
+[![npm](https://img.shields.io/npm/v/@majikah/majik-signature)](https://www.npmjs.com/package/@majikah/majik-signature) [![Crates.io](https://img.shields.io/crates/v/majik-key)](https://crates.io/crates/majik-key) [![npm downloads](https://img.shields.io/npm/dm/@majikah/majik-signature)](https://www.npmjs.com/package/@majikah/majik-signature) [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
 ```mermaid
 flowchart TD
     A[12/24-word BIP-39 Seed Phrase] --> B[Majik Key]

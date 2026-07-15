@@ -33,6 +33,7 @@ One seed phrase generates all three. No accounts. No emails. No central authorit
 ---
 
 ## The Majik Key
+[![ZENODO](https://img.shields.io/badge/Read_the_Technical_Whitepaper_Here-1682D4?style=for-the-badge&logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.21339132)
 
 ```mermaid
 flowchart TD

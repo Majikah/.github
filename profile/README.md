@@ -272,7 +272,7 @@ Thread integrity can be independently verified at: [message.majikah.solutions/th
 | **Developer Platform** | [developers.majikah.solutions](https://developers.majikah.solutions) |
 | **GitHub** | [github.com/Majikah](https://github.com/Majikah) |
 | **npm** | [npmjs.com/~majikah](https://www.npmjs.com/~majikah) |
-| **Inquiries** | Majikah Information Technology Solutions |
+| **Inquiries** | Majikah Solutions OPC |
 
 ---
 

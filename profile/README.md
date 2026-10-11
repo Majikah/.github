@@ -11,9 +11,7 @@
 We build with established cryptographic standards—including **ML-KEM (FIPS 203)** and **ML-DSA (FIPS 204)**—and aim to make these capabilities practical for everyday users, creators, developers, and businesses.
 
 
-[![ZENODO](https://img.shields.io/badge/Read_the_Technical_Whitepaper_Here-1682D4?style=for-the-badge&logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.23208491)
-[![MAJIKAH](https://img.shields.io/badge/Read_the_Full_Majikah_Article_Here-EA7F05?style=for-the-badge)](http://majikah.solutions/articles/majik-key-whitepaper)
-
+[![Zenodo](https://img.shields.io/badge/Technical%20Whitepaper-Zenodo-1682D4?style=for-the-badge&logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.23208491) [![Majikah](https://img.shields.io/badge/Read%20the%20Article-Majikah-EA7F05?style=for-the-badge)](https://majikah.solutions/articles/majik-key-whitepaper)
 
 
 [![License](https://img.shields.io/badge/SDKs-Apache--2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)

@@ -123,7 +123,6 @@ Majikah publishes selected libraries, SDKs, specifications, and implementation r
 |---|---|
 | [`majikah-sdk`](https://github.com/Majikah/majikah-sdk) | TypeScript client for public Majikah services, including MUID, timestamping, SLink, and file notarization. |
 | [`majik-notary`](https://github.com/Majikah/majik-notary) | Blockchain anchoring and on-chain verification for sealed files; its library repository currently describes the implementation as early access and under active development. |
-| [`majik-api`](https://github.com/Majikah/majik-api) | API-key lifecycle and policy-management library. |
 
 These projects have different release cycles, dependencies, and maturity levels. Each repository is the source of truth for its installation instructions, license, API stability, changelog, and security guidance. Public source code supports inspection; it is not, by itself, an independent security audit.
 

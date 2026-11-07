@@ -4,7 +4,7 @@
 
 > **Post-quantum security and software, built around digital trust.**
 
-**Majikah Solutions OPC** is a Philippine software company developing privacy-first products, cryptographic technology, and bespoke digital solutions for people, creators, developers, businesses, and organizations.
+**Majikah Solutions OPC** is a Philippine post-quantum security and software company developing privacy-first products, cryptographic technology, and bespoke digital solutions for people, creators, developers, businesses, and organizations.
 
 We build practical tools that help people verify digital work, protect communications, manage cryptographic identity, and bring stronger security into everyday software. Our work combines our own products, reusable developer foundations, and custom engineering for organizations.
 
@@ -43,7 +43,7 @@ Its workflows support documents, images, audio, video, source code, software rel
 - **Sign and verify locally.** Core signing and verification are designed to run on the user's device. Files are not uploaded just to be signed or verified, and private signing keys remain local.
 - **Embed or detach signatures.** Keep signature data with supported files or share a separate .mjksig envelope.
 - **Support multi-party workflows.** Signer allowlists, multiple signatures, sealing, and signing-order verification help support review and approval processes.
-- **Add independent evidence when needed.** Optional trusted timestamps and Majik Notary blockchain anchoring extend the workflow; these services require network access.
+- **Add independent evidence when needed.** Optional trusted timestamps and Majik Notary blockchain anchoring can extend the workflow; these services require network access and depend on current product/service availability.
 - **Automate supported workflows.** The SDK and documented CLI/MCP capabilities provide integration paths for developers and automation.
 
 **Try it or explore the implementation:**
